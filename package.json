@@ -9,6 +9,6 @@
   "author": "Subrat Pradhan",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.16.1"
+    "cypress": "^13.17.0"
   }
 }
