@@ -1,24 +1,30 @@
+const { aiAgent } = require('../../support/ai_agent');
+
 describe('Test',  () => {
   it('T1 invalid email', () => {
     cy.visit('https://dashclickspm.dashclicks.com/auth/login')
-    cy.get("input[name='email']").type('vk@dashclicks0.com')
-    cy.get('.LPIFSIFBFError').contains('No accounts found with the given email!')
-  })
-})
-describe('Test',  () => {
-  it('T2 invalid login', () => {
-    cy.visit('https://dashclickspm.dashclicks.com/auth/login')
-    cy.get("input[name='email']").type('vk@dashclicks.com')
-    cy.get("input[name*='password']").type('Dashclicks@20240#')
-    cy.get(".LPIFSIFBPRightIcon").click()
+    cy.get("input[name*='email']").type('test@gmail.com')
+    cy.get("input[name*='password']").type('Dashclicks@2024#')
     cy.get('.mainButton').click()
   })
-})
-describe('Login Test Flow', () => {
-  it('T3 valid login', () => {
+
+  it('T2 invalid password', () => {
     cy.visit('https://dashclickspm.dashclicks.com/auth/login')
-    cy.get("input[name='email']").type('vk@dashclicks.com')
+    cy.get("input[name*='email']").type('test@dashclicks.com')
+    cy.get("input[name*='password']").type('test123')
+    cy.get('.mainButton').click()
+  })
+
+  it('T3 valid credentials', () => {
+    cy.visit('https://dashclickspm.dashclicks.com/auth/login')
+    cy.get("input[name*='email']").type('test@dashclicks.com')
     cy.get("input[name*='password']").type('Dashclicks@2024#')
     cy.get('.mainButton').click()
   })
 })
+
+describe('AI-powered testing', () => {
+  it('should explore the application', () => {
+    aiAgent.explore('https://dashclickspm.dashclicks.com/auth/login');
+  });
+});
