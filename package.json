@@ -10,5 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.17.0"
+  },
+  "dependencies": {
+    "@testing-library/cypress": "^10.1.0",
+    "cypress-file-upload": "^5.0.8",
+    "typescript": "^5.9.3"
   }
 }

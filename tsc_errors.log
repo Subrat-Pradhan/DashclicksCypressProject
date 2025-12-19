@@ -1,0 +1,43 @@
+Cypress/e2e/dashclicksInternal/Files/internalFiles.cy.ts(43,9): error TS7034: Variable 'apiResponse' implicitly has type 'any' in some locations where its type cannot be determined.
+Cypress/e2e/dashclicksInternal/Files/internalFiles.cy.ts(66,25): error TS7005: Variable 'apiResponse' implicitly has an 'any' type.
+Cypress/e2e/dashclicksInternal/Files/internalFiles.cy.ts(66,42): error TS7006: Parameter 'file' implicitly has an 'any' type.
+Cypress/e2e/dashclicksInternal/Files/internalFiles.cy.ts(69,47): error TS7006: Parameter 'name' implicitly has an 'any' type.
+Cypress/e2e/dashclicksInternal/Notebooks/internalNotebooks.cy.ts(51,9): error TS7034: Variable 'searchResponseData' implicitly has type 'any' in some locations where its type cannot be determined.
+Cypress/e2e/dashclicksInternal/Notebooks/internalNotebooks.cy.ts(77,9): error TS7005: Variable 'searchResponseData' implicitly has an 'any' type.
+Cypress/e2e/dashclicksInternal/Notebooks/internalNotebooks.cy.ts(79,54): error TS7005: Variable 'searchResponseData' implicitly has an 'any' type.
+Cypress/e2e/dashclicksInternal/Notebooks/internalNotebooks.cy.ts(81,11): error TS7005: Variable 'searchResponseData' implicitly has an 'any' type.
+Cypress/e2e/dashclicksInternal/Notebooks/internalNotebooks.cy.ts(87,28): error TS7006: Parameter 'notebook' implicitly has an 'any' type.
+Cypress/e2e/dashclicksInternal/Pulses/pulses.cy.ts(40,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/dashclicksInternal/Pulses/pulses.cy.ts(41,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/dashclicksInternal/Subscriptions/subscription.cy.ts(55,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/dashclicksInternal/Subscriptions/subscription.cy.ts(56,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/dashclicksInternal/Subscriptions/subscription.cy.ts(72,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/dashclicksInternal/Subscriptions/subscription.cy.ts(73,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/fulfillmentCenter/Files/files.cy.ts(96,9): error TS7034: Variable 'apiResponse' implicitly has type 'any' in some locations where its type cannot be determined.
+Cypress/e2e/fulfillmentCenter/Files/files.cy.ts(119,25): error TS7005: Variable 'apiResponse' implicitly has an 'any' type.
+Cypress/e2e/fulfillmentCenter/Files/files.cy.ts(119,42): error TS7006: Parameter 'file' implicitly has an 'any' type.
+Cypress/e2e/fulfillmentCenter/Files/files.cy.ts(122,47): error TS7006: Parameter 'name' implicitly has an 'any' type.
+Cypress/e2e/fulfillmentCenter/Files/files.cy.ts(179,9): error TS2740: Type 'BaseMessage<any> & { statusCode: number; statusMessage: string; throttleKbps?: number | undefined; delay?: number | undefined; } & { send(status: number, body?: string | number | object | undefined, headers?: { ...; } | undefined): void; send(body: string | object, headers?: { ...; } | undefined): void; send(staticR...' is missing the following properties from type 'any[]': length, pop, push, concat, and 29 more.
+Cypress/e2e/fulfillmentCenter/Notebooks/notebooks.cy.ts(137,9): error TS7034: Variable 'searchResponseData' implicitly has type 'any' in some locations where its type cannot be determined.
+Cypress/e2e/fulfillmentCenter/Notebooks/notebooks.cy.ts(168,9): error TS7005: Variable 'searchResponseData' implicitly has an 'any' type.
+Cypress/e2e/fulfillmentCenter/Notebooks/notebooks.cy.ts(170,54): error TS7005: Variable 'searchResponseData' implicitly has an 'any' type.
+Cypress/e2e/fulfillmentCenter/Notebooks/notebooks.cy.ts(172,11): error TS7005: Variable 'searchResponseData' implicitly has an 'any' type.
+Cypress/e2e/fulfillmentCenter/Notebooks/notebooks.cy.ts(178,28): error TS7006: Parameter 'notebook' implicitly has an 'any' type.
+Cypress/e2e/my-requests/my-requests.cy.ts(51,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/my-requests/my-requests.cy.ts(52,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/my-requests/my-requests.cy.ts(83,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/my-requests/my-requests.cy.ts(84,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/pending-actions/pending-actions.cy.ts(1,44): error TS2307: Cannot find module '@api/query-keys/projects' or its corresponding type declarations.
+Cypress/e2e/pending-actions/pending-actions.cy.ts(69,33): error TS2551: Property 'toEqual' does not exist on type 'Assertion'. Did you mean 'equal'?
+Cypress/e2e/pending-actions/pending-actions.cy.ts(71,26): error TS2551: Property 'toContain' does not exist on type 'Assertion'. Did you mean 'contain'?
+Cypress/e2e/pending-actions/project-dashboard-card.cy.ts(1,44): error TS2307: Cannot find module '@api/query-keys/projects' or its corresponding type declarations.
+Cypress/e2e/pending-actions/project-dashboard-card.cy.ts(2,45): error TS2307: Cannot find module '@constants/queryKeys' or its corresponding type declarations.
+Cypress/e2e/subscriptions/subscription.cy.ts(24,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/subscriptions/subscription.cy.ts(25,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/subscriptions/subscription.cy.ts(48,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/subscriptions/subscription.cy.ts(49,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/subscriptions/subscription.cy.ts(76,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/e2e/subscriptions/subscription.cy.ts(77,14): error TS18048: 'interception.response' is possibly 'undefined'.
+Cypress/support/commands.ts(50,53): error TS2339: Property 'queryClient' does not exist on type 'AUTWindow'.
+Cypress/support/commands.ts(52,17): error TS2339: Property 'queryClient' does not exist on type 'AUTWindow'.
+Cypress/support/commands.ts(58,30): error TS2339: Property 'queryClient' does not exist on type 'AUTWindow'.
